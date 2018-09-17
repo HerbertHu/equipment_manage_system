@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Add_dialog</class>
+ <widget class="QDialog" name="Add_dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>611</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>购买日期</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>类型</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="4">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>经费类型</string>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="0">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>送货日期</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="5">
+     <widget class="QLineEdit" name="lineEdit_10"/>
+    </item>
+    <item row="14" column="4">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>使用人</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="3">
+     <widget class="QLineEdit" name="lineEdit_6"/>
+    </item>
+    <item row="0" column="5">
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>设备</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>材料</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="18" column="3">
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+    <item row="16" column="5">
+     <widget class="QComboBox" name="comboBox_3">
+      <item>
+       <property name="text">
+        <string>正在使用</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>闲置</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>电话</string>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="3">
+     <widget class="QDateEdit" name="dateEdit_3"/>
+    </item>
+    <item row="18" column="4">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>备注</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+    <item row="8" column="4">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>经费数目</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="3">
+     <widget class="QLineEdit" name="lineEdit_9"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>供应商</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="3">
+     <widget class="QLineEdit" name="lineEdit_7"/>
+    </item>
+    <item row="6" column="3">
+     <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>联系人</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="5">
+     <widget class="QLineEdit" name="lineEdit_5"/>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>经费负责人</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="5">
+     <widget class="QLineEdit" name="lineEdit_8"/>
+    </item>
+    <item row="14" column="0">
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>验收人</string>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="4">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>使用状态</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="4">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>经办人</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="5">
+     <widget class="QComboBox" name="comboBox_2">
+      <item>
+       <property name="text">
+        <string>横向</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>纵向</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>自主基金</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="18" column="5">
+     <widget class="QTextEdit" name="textEdit_2"/>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>卡号</string>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>基本配置</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="3">
+     <widget class="QLineEdit" name="lineEdit_4"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>名称</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QDateEdit" name="dateEdit"/>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>出厂日期</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="QDateEdit" name="dateEdit_2"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>设备编号</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3" colspan="3">
+     <widget class="QLineEdit" name="lineEdit_11"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>311</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>350</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
